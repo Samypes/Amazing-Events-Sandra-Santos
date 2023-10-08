@@ -1,0 +1,63 @@
+header {
+    min-height: 15vh;
+
+}
+
+
+main {
+    min-height: 75vh;
+background-color:lightblue;
+}
+
+.form-check {
+    height: 10vh;
+    width: 10vw;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.d-item {
+    height: 50vh;
+    width: 50vw;
+}
+
+.d-img {
+    height: 50vh;
+    width: 50vw;
+    object-fit: cover;
+
+}
+
+.carousel-inner {
+    display: flex;
+    object-fit: cover;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.favicon {
+    display: contents;
+    width: 5vw;
+    height: 5vh;
+    align-items: center;
+    margin: 20%;
+    justify-content: space-around;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ 
+footer {
+    min-height: 10vh;
+
+}
