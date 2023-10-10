@@ -49,12 +49,17 @@ background-color:lightblue;
     justify-content: space-around;
 
 }
-
-.cards {
+.cards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 2rem;
+    height: auto;
+    
+
+    
 }
+
 
  
 footer {
