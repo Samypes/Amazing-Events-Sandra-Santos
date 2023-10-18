@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,58 +8,56 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <style media="screen">
+  <style media="screen">
+    @media(max-width:575px) {
+      body {
+        background-color: lightblue;
 
-      @media(max-width:575px){
-      body{
-  background-color: lightblue;
+      }
+    }
 
-}
-}
+    @media (min-width: 576px) {
+      body {
+        background-color: blue;
 
-@media (min-width: 576px) {
-body{
-  background-color: lightblue;
+      }
+    }
 
-}
-}
- 
-@media (min-width: 768px)
-{
-body{
-  background-color: lightblue;
+    @media (min-width: 768px) {
+      body {
+        background-color: lightblue;
 
-}
-}
+      }
+    }
 
-@media (min-width: 992px) {
-body{
-  background-color: lightblue;
+    @media (min-width: 992px) {
+      body {
+        background-color: blue;
 
-}
-}
+      }
+    }
 
-@media (min-width: 1200px) {
-body{
-  background-color: lightblue;
+    @media (min-width: 1200px) {
+      body {
+        background-color: lightblue;
 
-}
-}
+      }
+    }
 
-@media (min-width: 1400px) {
-body{
-  background-color: lightblue;
+    @media (min-width: 1400px) {
+      body {
+        background-color: blue;
 
-}
-}
-    </style>
+      }
+    }
+  </style>
 
 </head>
 
 <body>
-  <header >
+  <header>
     <div class="container-fluid d-flex flex-row-reverse">
-    <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg ">
 
         <nav class="navbar ">
           <div class="container-fluid">
@@ -116,7 +113,7 @@ body{
       </div>
       <div>
         <div class="carousel-inner">
-          <div class="carousel-item active d-item ">
+          <div class="carousel-item active d-item h-50">
             <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/optional_banner_1.jpg"
               class="d-block w-100 h-70 d-img" alt="banner1">
             <div class="carousel-caption top-0 mt-4">
@@ -141,7 +138,7 @@ body{
             </div>
           </div>
           <div class="carousel-item active d-item">
-            <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/optional_banner_4.jpg"
+            <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/optional_banner_4.jpg h-50"
               class="d-block w-100 h-70" alt="banner4">
             <div class="carousel-caption top-0 mt-4">
               <p class="mt-5 fs-3 "></p>
@@ -168,129 +165,48 @@ body{
           <span class="visually-hidden"></span>
         </button>
       </div>
-</div>
+    </div>
 
-      <div class="check-box m-2 p-2">
+    <div class="check-box m-2 p-2">
 
-        <div class="form-check d-flex">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Category
-          </label>
-        </div>
-        <div class="form-check ">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Category
-          </label>
-        </div>
-        <div class="form-check d-flex">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Category
-          </label>
-        </div>
-        <div class="form-check ">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Category
-          </label>
-        </div>
-        <div class="form-check d-flex">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Category
-          </label>
-        </div>
+      <div class="form-check d-flex">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Category
+        </label>
       </div>
-  
+      <div class="form-check ">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Category
+        </label>
       </div>
-      <div class="cards d-flex align-content-between">
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/food_fair.jpg" class="card-img-top"
-            alt="cards1">
-          <div class="card-body">
-            <h5 class="card-title">Festival off the collectivities</h5>
-            <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for the wholw
-              family .</p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem; ">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/outing_to_the_museum.jpg"
-            class="card-img-top" alt="cards2">
-          <div class="card-body">
-            <h5 class="card-title">outing to the museum</h5>
-            <p class="card-text">Let's go to the art museum for an incredible tour to learn about the largest dinosaurs.
-            </p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/costume_party.jpg"
-            class="card-img-top" alt="cards3">
-          <div class="card-body">
-            <h5 class="card-title">Hellowen nigth</h5>
-            <p class="card-text">Come in ypur scariest costume character to win amazing prizes</p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/music_concert.jpg"
-            class="card-img-top" alt="cards4">
-          <div class="card-body">
-            <h5 class="card-title">Metallica in concert</h5>
-            <p class="card-text">The only concert of the most emblematic band in the word. </p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/marathon.jpg" class="card-img-top"
-            alt="cards5">
-          <div class="card-body">
-            <h5 class="card-title">10k for life</h5>
-            <p class="card-text">Come and exercise , improve your health and lifestyle </p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/books.jpg" class="card-img-top"
-            alt="cards6">
-          <div class="card-body">
-            <h5 class="card-title">School book fair</h5>
-            <p class="card-text">Bring your usused school book and bring the one you need</p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/cinema.jpg" class="card-img-top"
-            alt="cards7">
-          <div class="card-body">
-            <h5 class="card-title">Avengers</h5>
-            <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best super heroes</p>
-            <a href="Details.html" class="btn btn-primary">Details</a>
-          </div>
-        </div>
+      <div class="form-check d-flex">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Category
+        </label>
+      </div>
+      <div class="form-check ">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Category
+        </label>
+      </div>
+      <div class="form-check d-flex">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Category
+        </label>
+      </div>
+    </div>
 
-
-     
-        
+    </div>
+    <div id="contenedorCards" class="cards d-flex justify-content-center p-1 flex-wrap gap-5">
+    
+        </div>
       
-   
       
-    
-    
-    
-      </div>
-    
-  
-   
-
-
-
-
-
-
 
 
 
@@ -300,16 +216,26 @@ body{
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
+      
+    <script src="./dataHome.js"></script>
+    <script src="./index.js"></script>
+    
+    
   </main>
   <footer class="bg-success-subtle">
-    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/facebook.png " class="redes-sociales m-2 p-2" alt="">
-    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/whatsapp.png  " class="redes-sociales m-2 p-2"   alt="">
-    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/instagram.png  "class="redes-sociales m-2 p-2" alt="">
+    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/facebook.png "
+      class="redes-sociales m-2 p-2" alt="">
+    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/whatsapp.png  "
+      class="redes-sociales m-2 p-2" alt="">
+    <img src="Recursos_Amazing_Events_Task_1/Recursos_Amazing_Events_Task_1/instagram.png  "
+      class="redes-sociales m-2 p-2" alt="">
     <div class="page-item d-flex justify-content-end">
-    <p><h5>Create by Sandra Milena Peña</h5></p>
-    
+      <p>
+      <h5>Create by Sandra Milena Peña</h5>
+      </p>
+
     </div>
-    </footer>
-    </body>
-    
-    </html>
+  </footer>
+</body>
+
+</html>
