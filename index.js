@@ -6,7 +6,7 @@ for (let events  of arrayEvents) {
 card.classList.add("card")
 card.style.width = "18rem"
 card.innerHTML =`<img src="${events.image}" class="card-img-top" alt="cards">
-<div class="card-body " >
+<div class="card-body bg-blue" >
   <h5 class="card-title">${events.name}</h5>
   <p class="cartext" >"${events.description}."
   </p>
