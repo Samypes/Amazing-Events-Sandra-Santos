@@ -1,3 +1,4 @@
+
 header {
     min-height: 15vh;
 
@@ -64,4 +65,44 @@ footer {
     min-height: 10vh;
 
 }
+@media(max-width:575px) {
+  body {
+    background-color: lightblue;
 
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: blue;
+
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: lightblue;
+
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: blue;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: lightblue;
+
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: blue;
+
+  }
+}
